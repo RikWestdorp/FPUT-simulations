@@ -7,9 +7,11 @@ This repository contains the code used to generate the results in the preprint:
 The code simulates soliton propagation in an FPUT lattice with random heterogeneity in the linear spring force, and analyzes the resulting amplitude attenuation.
 
 ## Contents
-- `Simulation/` — scripts for direct and modulation based numerical simulation of the lattice system  
-- `Attenuation/` — scripts for numerical computation of theoretically found attenuation rates
+- main.m contains the main script for direct and modulation based numerical simulation of the lattice system  
+- Plots.m contains the scripts for creating figures based on simulations
+- fundamental.m contains a script for computations related to the theoretical attenuation rate
+- Plot_rates.m contains additional scripts for figures containing computations of the theoretical attenuation rate
+- Remaining files are helper functions, or datafiles
 
-## Usage
-Run the main script:
-main.m
+
+
