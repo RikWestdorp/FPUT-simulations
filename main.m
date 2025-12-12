@@ -1,11 +1,6 @@
 % main.m
 clear; clc;
-parentFolder = fileparts(pwd);  % Get parent directory of current folder
-addpath(parentFolder);         % Add it to the path
-% Load and preprocess waveprofiles
-filename = 'all_sols_out_e.txt';
-[c_groups, c_values] = load_phi_data(filename);
-db = preprocess_phi_data(c_groups, c_values);
+load('small.mat','db')
 
 %% Configuration Section
 time = 600; %Total timesteps
